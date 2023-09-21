@@ -14,4 +14,4 @@ primeCnt x | x < 2 = 0
 primeCnt 2 = 1
 primeCnt x = isPrime x + primeCnt (x - 1)
 
-main = print(primeCnt 100)
+main = print(primeCnt 10000)
